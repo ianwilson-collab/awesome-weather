@@ -1,7 +1,7 @@
 // Awesome Weather App — offline helper.
 // The app's own files load from the network first (so updates show up right away) and fall back to a saved copy offline.
 // Weather data is not handled here: the page already keeps its own saved forecast for offline use.
-const CACHE = "awesome-weather-v2";
+const CACHE = "awesome-weather-v3";
 const APP_FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
 self.addEventListener("install", (event) => {
