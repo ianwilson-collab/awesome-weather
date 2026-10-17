@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AWE Weather Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<style>
+/* The app's own colors and type, on a plain reading page */
+:root { --bg: #eef2f6; --surface: #ffffff; --ink: #15202b; --ink-2: #4a5a6a; --ink-3: #75828f; --line: rgba(20, 32, 43, .12); --accent: #2f6fdb;
+  --gold: #c98a06; --green: #2f9e78; --blue: #2b7fb0; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0e141b; --surface: #161f29; --ink: #e8eef4; --ink-2: #a8b5c2; --ink-3: #7c8996; --line: rgba(255, 255, 255, .1);
+  --accent: #6ea1ff; --gold: #ffc24a; --green: #95dabd; --blue: #6cb4d5; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 44rem; margin: 0 auto; padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+.mark { display: grid; line-height: 1; }
+.mark b:first-child { font-size: 11px; letter-spacing: .3em; color: var(--gold); }
+.mark b:last-child { font-size: 30px; letter-spacing: -.02em; background: linear-gradient(135deg, var(--green), var(--blue)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h1 { margin: 0; font-size: 30px; line-height: 1.15; letter-spacing: -.01em; text-wrap: balance; }
+h2 { margin: 0 0 4px; font-size: 19px; text-wrap: balance; }
+p, ul { margin: 0; color: var(--ink-2); }
+ul { padding-left: 1.2em; display: grid; gap: 6px; }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: grid; gap: 8px; }
+.short { font-size: 18px; color: var(--ink); }
+.muted { color: var(--ink-3); font-size: 14px; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-label="Awesome Weather"><b>AWESOME</b><b>Weather</b></div>
+  <h1>Privacy Policy</h1>
+  <p class="muted">For the AWE Weather app for Android, its home-screen widgets, and the AWE Weather web app. Effective October 17, 2026.</p>
+
+  <p class="short">AWE Weather has no accounts, no ads, no analytics and no tracking. Nothing about you is sent to the people who make it.</p>
+
+  <section>
+    <h2>Your location</h2>
+    <p>AWE Weather needs a place to show a forecast for. You can type a city, or tap "Use my location" to let the app use your phone's approximate location (about city level, never precise GPS). The app asks for this only when you tap that button, and you can say no and type a place instead.</p>
+    <p>The place's latitude and longitude are sent to the weather services below so they can return its forecast. The app doesn't use your location for anything else and doesn't track where you go.</p>
+  </section>
+
+  <section>
+    <h2>The weather services AWE Weather uses</h2>
+    <p>To show the weather, the app sends the place's latitude and longitude (or, when you search, the name you typed) directly from your phone to these free public services:</p>
+    <ul>
+      <li><a href="https://open-meteo.com/en/terms">Open-Meteo</a>: the forecast, the place search, and past weather for "Plan a Date".</li>
+      <li><a href="https://www.weather.gov/disclaimer">The U.S. National Weather Service</a>: forecasts and weather alerts for places in the United States.</li>
+      <li><a href="https://www.swpc.noaa.gov/">NOAA's Space Weather Prediction Center</a>: the aurora forecast (this request doesn't include your location).</li>
+    </ul>
+    <p>Like any website, these services can see your phone's internet address when it connects. Their own privacy terms apply to that.</p>
+  </section>
+
+  <section>
+    <h2>What stays on your phone</h2>
+    <p>Your chosen place, your settings (styles, colors, widget options) and the most recent forecast are saved on your phone so the app and widgets open quickly and can refresh on their own. They never leave your phone except as described above.</p>
+    <p>To delete them, clear AWE Weather's storage in your phone's settings, or uninstall the app. In the web app, clear the site's data in your browser.</p>
+  </section>
+
+  <section>
+    <h2>Permissions the Android app asks for</h2>
+    <ul>
+      <li><b>Approximate location:</b> only when you tap "Use my location".</li>
+      <li><b>Internet:</b> to download the weather.</li>
+      <li><b>Alarms and reminders:</b> optional; lets the Clock widget change right at each minute.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>AWE Weather isn't directed at children and doesn't knowingly collect information from anyone.</p>
+  </section>
+
+  <section>
+    <h2>Changes and questions</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date. Questions are welcome on the app's page at <a href="https://github.com/ianwilson-collab/awesome-weather-android">github.com/ianwilson-collab/awesome-weather-android</a>.</p>
+  </section>
+</main>
+</body>
+</html>
